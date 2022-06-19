@@ -1,0 +1,15 @@
+{
+  "name": "aware",
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "packages/**/*",
+      "sites/**/*"
+    ],
+    "nohoist": [
+      "**/rimraf",
+      "**/rimraf/**"
+    ]
+  },
+  "private": true
+}
